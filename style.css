@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* first assigment */
+.assiment1{
+    height: 100px;
+    width: 100px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #eee;
+    border-radius:50%;
+    box-shadow: -5px 0 0 0 #03a9f4, 5px 0 0 0 #ff5722;
+    color: #ff5722;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* second assigment */
+.parent1{
+    width:600px;
+    height:300px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+.parent1 > div{
+    background-color: #ff5722;
+    color: white;
+    width: calc(95% / 3);
+    height: 40px;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* third assigment */
+.parent2{
+    width: 600px;
+    height: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow:row wrap;
+
+}
+.parent2 > div{
+    background-color: #607d8b;
+    color:white;
+    width: calc(95% / 3);
+    height:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent2 .one{
+    order:5;
+    height:40px;
+    align-self: flex-end;
+
+}
+
+.parent2 .two{
+    order:4;
+}
+
+.parent2 .three{
+    order:1;
+    height:40px;
+}
+
+.parent2 .four{
+    order:2;
+}
+
+.parent2 .five{
+    order:3;
+}
+.parent2 .six{
+    order:0;
+}
+
+/* fourth assigment */
+.parent3{
+    width:600px;
+    height:300px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #EEE;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-flow: column wrap;
+}
+.parent3 > div{
+    background-color: #009688;
+    color: white;
+    width: 5%;
+    height: calc(95% / 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.parent3 .two{
+    align-self: flex-start;
+    width:50%;
+    
+}
